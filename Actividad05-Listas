@@ -1,10 +1,16 @@
-
+%ejercicio de la familia Simspsons con Listas 
 
 padre_de(homero,[lisa,maggie,bart]).
 padre_de(abraham,[herbert,homero]).
 padre_de(clancy,[patty,marge,selma]).
 
-
+madre_de(jacqueline,[patty,selma,marge]).
+madre_de(mona,[homero]).
+madre_de(marge,[bart,lisa,maggie]).
+madre_de(selma,[ling]).
 
 abuelo_de(abraham,[bart,lisa,maggie]).
 abuelo_de(clancy,[bart,lisa,maggie,ling]).
+
+abuela_de(mona,[bart,lisa,maggie]).
+abuela_de(jacqueline,[bart,lisa,maggie,ling]).
